@@ -1,0 +1,500 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &3223952076346688206
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 3223952076346688205}
+  - component: {fileID: 3223952076346688204}
+  m_Layer: 0
+  m_Name: GeNa Spawner - Rocks
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &3223952076346688205
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223952076346688206}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &3223952076346688204
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 3223952076346688206}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5efcd4511085ba6459896bd80edeeb0b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  m_spawnMode: 0
+  m_flowDistanceSqr: 25.300898
+  m_parentName: Rocks
+  m_showHelp: 1
+  m_mergeSpawns: 1
+  m_spawnPrototypes:
+  - m_name: Rock05_LP
+    m_active: 1
+    m_size: {x: 1.9972374, y: 1.8245745, z: 1.5025313}
+    m_extents: {x: 0.9986187, y: 0.91228724, z: 0.75126565}
+    m_boundsBorder: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_scaleOnMaskedAlphaMin: 0.5
+    m_scaleOnMaskedAlphaMax: 1
+    m_successOnMaskedAlpha: 0
+    m_forwardRotation: 0
+    m_resources:
+    - m_name: Rock05_LP
+      m_resourceType: 0
+      m_prefab: {fileID: 629299155735850320, guid: e0f1ab7dfcfa5a5458a2c389b4efe8a9,
+        type: 3}
+      m_assetID: e0f1ab7dfcfa5a5458a2c389b4efe8a9
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 0.047645453, y: -0.25, z: 0.11014972}
+      m_maxOffset: {x: 0.047645453, y: 0, z: 0.11014972}
+      m_minRotation: {x: 55.025196, y: 0, z: 330.12314}
+      m_maxRotation: {x: 55.025196, y: 360, z: 330.12314}
+      m_sameScale: 1
+      m_minScale: {x: 0.5, y: 1, z: 1}
+      m_maxScale: {x: 1.2, y: 1, z: 1}
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 1.9972374, y: 1.8245745, z: 1.5025313}
+      m_baseColliderCenter: {x: -0.06260753, y: 0.21391344, z: -0.09849781}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 1.9972372, y: 1.8245742, z: 1.5025312}
+      m_instancesSpawned: 25
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+    m_resourceType: 0
+    m_hasColliders: 0
+    m_hasMeshes: 1
+    m_hasRigidBody: 0
+    m_instancesSpawned: 25
+    m_imageFilterColour: {r: 1, g: 1, b: 1, a: 1}
+    m_imageFilterFuzzyMatch: 0.8
+    m_displayedInEditor: 0
+  - m_name: Rock_01
+    m_active: 1
+    m_size: {x: 2.9078324, y: 3.2443442, z: 3.7176185}
+    m_extents: {x: 1.4539162, y: 1.6221721, z: 1.8588092}
+    m_boundsBorder: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_scaleOnMaskedAlphaMin: 0.5
+    m_scaleOnMaskedAlphaMax: 1
+    m_successOnMaskedAlpha: 0
+    m_forwardRotation: 0
+    m_resources:
+    - m_name: Rock_01
+      m_resourceType: 0
+      m_prefab: {fileID: 7760779269325243329, guid: 14100392a4ae33f439dc0e49db4d0456,
+        type: 3}
+      m_assetID: 14100392a4ae33f439dc0e49db4d0456
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -0.95069396, y: 0.65, z: -1.8588092}
+      m_maxOffset: {x: -0.95069396, y: 0.65, z: -1.8588092}
+      m_minRotation: {x: 306.13858, y: 0, z: 34.65175}
+      m_maxRotation: {x: 306.13858, y: 360, z: 34.65175}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 2.9078324, y: 3.2443442, z: 3.7176185}
+      m_baseColliderCenter: {x: 0.897777, y: 0.39604735, z: 1.8183969}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 2.907833, y: 3.2443452, z: 3.6367939}
+      m_instancesSpawned: 28
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+    m_resourceType: 0
+    m_hasColliders: 0
+    m_hasMeshes: 1
+    m_hasRigidBody: 0
+    m_instancesSpawned: 28
+    m_imageFilterColour: {r: 1, g: 1, b: 1, a: 1}
+    m_imageFilterFuzzyMatch: 0.8
+    m_displayedInEditor: 1
+  - m_name: Rock_07_LP
+    m_active: 1
+    m_size: {x: 3.0729375, y: 2.0236115, z: 2.198884}
+    m_extents: {x: 1.5364687, y: 1.0118058, z: 1.099442}
+    m_boundsBorder: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_scaleOnMaskedAlphaMin: 0.5
+    m_scaleOnMaskedAlphaMax: 1
+    m_successOnMaskedAlpha: 0
+    m_forwardRotation: 0
+    m_resources:
+    - m_name: Rock_07_LP
+      m_resourceType: 0
+      m_prefab: {fileID: 5314425888606650446, guid: 29192ea8fb1557746956358820723ce7,
+        type: 3}
+      m_assetID: 29192ea8fb1557746956358820723ce7
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: 1.0110637, y: 0.45, z: 0.24097896}
+      m_maxOffset: {x: 1.0110637, y: 0.45, z: 0.24097896}
+      m_minRotation: {x: -0, y: 0, z: 279.17795}
+      m_maxRotation: {x: -0, y: 360, z: 279.17795}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 3.0729375, y: 2.0236115, z: 2.198884}
+      m_baseColliderCenter: {x: -0.33431375, y: 0.62529194, z: -0.24097896}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 3.0729384, y: 2.023613, z: 2.1988845}
+      m_instancesSpawned: 25
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+    m_resourceType: 0
+    m_hasColliders: 0
+    m_hasMeshes: 1
+    m_hasRigidBody: 0
+    m_instancesSpawned: 25
+    m_imageFilterColour: {r: 1, g: 1, b: 1, a: 1}
+    m_imageFilterFuzzyMatch: 0.8
+    m_displayedInEditor: 0
+  - m_name: Rock04_LP
+    m_active: 1
+    m_size: {x: 2.24053, y: 2.4683394, z: 1.9015186}
+    m_extents: {x: 1.120265, y: 1.2341697, z: 0.9507593}
+    m_boundsBorder: 0
+    m_constrainWithinMaskedBounds: 0
+    m_invertMaskedAlpha: 0
+    m_scaleOnMaskedAlpha: 0
+    m_scaleOnMaskedAlphaMin: 0.5
+    m_scaleOnMaskedAlphaMax: 1
+    m_successOnMaskedAlpha: 0
+    m_forwardRotation: 0
+    m_resources:
+    - m_name: Rock04_LP
+      m_resourceType: 0
+      m_prefab: {fileID: 7974740854600354091, guid: 44b6f6a3c50cb084d9938c36c6ab8560,
+        type: 3}
+      m_assetID: 44b6f6a3c50cb084d9938c36c6ab8560
+      m_successRate: 1
+      m_conformToSlope: 1
+      m_minOffset: {x: -0.15006852, y: 0.2, z: -0.15789175}
+      m_maxOffset: {x: -0.15006852, y: 0.2, z: -0.15789175}
+      m_minRotation: {x: 55.276474, y: 0, z: 108.80578}
+      m_maxRotation: {x: 55.276474, y: 360, z: 108.80578}
+      m_sameScale: 1
+      m_minScale: {x: 1, y: 1, z: 1}
+      m_maxScale: {x: 1, y: 1, z: 1}
+      m_terrainProtoIdx: 0
+      m_hasColliders: 0
+      m_hasRootCollider: 0
+      m_hasMeshes: 1
+      m_hasRigidBody: 0
+      m_flagLightmapStatic: 0
+      m_flagBatchingStatic: 0
+      m_flagOccludeeStatic: 0
+      m_flagOccluderStatic: 0
+      m_flagNavigationStatic: 0
+      m_flagOffMeshLinkGeneration: 0
+      m_flagReflectionProbeStatic: 0
+      m_flagMovingObject: 0
+      m_flagCanBeOptimised: 1
+      m_flagForceOptimise: 0
+      m_flagIsOutdoorObject: 1
+      m_baseScale: {x: 1, y: 1, z: 1}
+      m_baseSize: {x: 2.24053, y: 2.4683394, z: 1.9015186}
+      m_baseColliderCenter: {x: 0.12264156, y: 0.16524863, z: 0.08663887}
+      m_baseColliderUseConstScale: 1
+      m_baseColliderConstScaleAmount: 0.75
+      m_baseColliderScale: {x: 2.240531, y: 2.46834, z: 1.9015185}
+      m_instancesSpawned: 22
+      m_avsID: 
+      m_avsVegetationType: 3
+      m_displayedInEditor: 0
+    m_resourceType: 0
+    m_hasColliders: 0
+    m_hasMeshes: 1
+    m_hasRigidBody: 0
+    m_instancesSpawned: 22
+    m_imageFilterColour: {r: 1, g: 1, b: 1, a: 1}
+    m_imageFilterFuzzyMatch: 0.8
+    m_displayedInEditor: 0
+  m_spawnOriginLocation: {x: -12.081324, y: -5.769358e-18, z: 25.946878}
+  m_spawnOriginNormal: {x: 0, y: 1, z: 2.2204462e-19}
+  m_spawnOriginObjectID: -95946
+  m_spawnOriginIsTerrain: 0
+  m_spawnOriginBounds:
+    m_Center: {x: -12.081324, y: -5.769358e-18, z: 25.946878}
+    m_Extent: {x: 6.75, y: 2500, z: 6.75}
+  m_spawnOriginGroundTransform: {fileID: 0}
+  m_spawnAlgorithm: 2
+  m_minInstances: 1
+  m_maxInstances: 5
+  m_instancesSpawned: 100
+  m_seedThrowRange: 0.52
+  m_seedThrowJitter: 1
+  m_maxSpawnRange: 13.5
+  m_spawnRangeShape: 0
+  m_critVirginCheckType: 2
+  m_critSpawnCollisionLayers:
+    serializedVersion: 2
+    m_Bits: 1
+  m_critBoundsBorder: 0
+  m_critCheckHeight: 1
+  m_critMinSpawnHeight: -20
+  m_critMaxSpawnHeight: 5000
+  m_critHeightVariance: 30
+  m_terrainTopBoundary: 5000
+  m_critCheckSlope: 1
+  m_critSlopeVariance: 30
+  m_critCheckTextures: 0
+  m_critTextureStrength: 0
+  m_critTextureVariance: 0.1
+  m_critSelectedTextureIdx: 0
+  m_critSelectedTextureName: 
+  m_critMaxSelectedTexture: 1
+  m_critCheckMask: 0
+  m_critMaskType: 0
+  m_critMaskFractalMidpoint: 0.5
+  m_critMaskFractalRange: 0.5
+  m_critMaskImage: {fileID: 0}
+  m_critMaskInvert: 0
+  m_rotationAlgorithm: 0
+  m_minRotationY: 0
+  m_maxRotationY: 360
+  m_sameScale: 1
+  m_scaleToNearestInt: 0
+  m_minScaleX: 0.7
+  m_maxScaleX: 1.3
+  m_minScaleY: 0.7
+  m_maxScaleY: 1.3
+  m_minScaleZ: 0.7
+  m_maxScaleZ: 1.3
+  m_useGravity: 0
+  m_enableRotationDragUpdate: 0
+  m_autoOptimise: 1
+  m_maxSizeToOptimize: 80
+  m_minProbeGroupDistance: 100
+  m_minProbeDistance: 15
+  m_autoProbe: 1
+  m_gravity: {fileID: 0}
+  m_advUseLargeRanges: 0
+  m_advShowMouseOverHelp: 1
+  m_advShowDetailedHelp: 1
+  m_advForcePlaceAtClickLocation: 0
+  m_advAddColliderToSpawnedPrefabs: 1
+  m_advSpawnCheckOffset: 2000
+  m_showSpawnCriteria: 0
+  m_showPlacementCriteria: 1
+  m_showPrototypes: 1
+  m_showGizmos: 1
+  m_showAdvancedSettings: 1
+  m_showCritMinSpawnHeight: 0
+  m_showCritMaxSpawnHeight: 0
+  m_needsVisualisationUpdate: 0
+  m_maxVisualisationDimensions: 50
+  m_metersPerScan: 1
+  m_metersPerScanVisualisation: 4
+  m_lastSpawnedObject: {fileID: 0}
+  m_prefabUndoList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_parentsUndoList:
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  - {fileID: 0}
+  m_defaults: {fileID: 11400000, guid: 6fe71ac9b3ec00542a83797ce00ac22e, type: 2}
+  m_randomSeed: 38986
+  m_spawnToAVS: 0
