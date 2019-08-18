@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
   m_Name: Small Rock Grouping
   m_EditorClassIdentifier: 
-  m_category: 0
+  m_category: 4
   m_timePeriod: 0
   m_prefab: {fileID: 1889273941342762240, guid: a191c8821386c4c4d924a6da92739d41,
     type: 3}

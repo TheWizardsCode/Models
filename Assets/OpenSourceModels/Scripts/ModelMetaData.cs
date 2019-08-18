@@ -9,10 +9,10 @@ namespace WizardsCode.Models
     /// The ModelMetaData captures information about an object in the database.
     /// The Models application uses this data to make it easier to find the model you want.
     /// </summary>
-    [CreateAssetMenu(fileName = "Model Meta Data", menuName = "Wizards Code/Models/Meta Data")]
+    [CreateAssetMenu(fileName = "Model Meta Data", menuName = "Wizards Code/Meta Data/Model")]
     public class ModelMetaData : ScriptableObject
     {
-        public enum Category { Uncategorized, Other, Building, Prop, Rock, Human };
+        public enum Category { Uncategorized, Other, Building, Prop, Rock, Human, Tree };
         public enum TimePeriod { Untimed, Other, Medieval, Present };
 
         public Category m_category = Category.Uncategorized;

@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
   m_Name: Medium Rock Grouping
   m_EditorClassIdentifier: 
-  m_category: 0
+  m_category: 4
   m_timePeriod: 0
   m_prefab: {fileID: 2272598138716836751, guid: dd358e9dbaec7324c8330496b7c2a8ef,
     type: 3}

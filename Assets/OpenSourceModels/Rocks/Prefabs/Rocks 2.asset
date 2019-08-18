@@ -12,7 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
   m_Name: Rocks 2
   m_EditorClassIdentifier: 
-  m_category: 0
+  m_category: 4
   m_timePeriod: 0
   m_prefab: {fileID: 7247631582838183940, guid: 08fb6d3143480b240af58be7867ce96c,
     type: 3}
