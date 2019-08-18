@@ -13,13 +13,13 @@ The goal of this project is not to provide AAA quality assets but instead provid
 
 ## Installing Via Package Manager
 
-Modify your manifest.json file found at /PROJECTNAME/Packages/manifest.json by including the following line
+Modify your manifest.json file found at /PROJECTNAME/Packages/manifest.json by including the following line - be sure to replace '[VERSiON NUMBER]' with the released version you want to use. You can see the list of [release branches](https://github.com/3dtbd/Common/branches/all?utf8=%E2%9C%93&query=release%2F) on GitHub. 
 
 ```json
 {
 	"dependencies": {
 		...
-		"org.3dtbd.models": "https://github.com/3dtbd/Models.git#release/stable",
+		"org.3dtbd.models": "https://github.com/3dtbd/Models.git#release/v[VERSION NUMBER]",
 		...
   }
 }
