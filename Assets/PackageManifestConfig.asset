@@ -18,7 +18,7 @@ MonoBehaviour:
   packageDestinationPath: ../../exports/3dtbd/Models
   packageName: org.3dtbd.models
   displayName: Open Source Models
-  packageVersion: 0.0.2
+  packageVersion: 0.0.3
   unityVersion: 2018.4
   description: Free (as in speech and beer) assets for you to reuse in any way you
     want.

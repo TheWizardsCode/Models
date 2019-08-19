@@ -11,7 +11,7 @@ namespace WizardsCode.Models
     /// <summary>
     /// The model database collects and manages information about all the models available in the system.
     /// </summary>
-    public class ModelDatabase : AbstractDatabase
+    public class ModelDatabase : MonoBehaviour
     {
         // UI
         public Dropdown CategoryDropdown;
@@ -23,8 +23,6 @@ namespace WizardsCode.Models
 
         private void Start()
         {
-            Initialize();
-
             ModelMetaData[] data = FindAllModels();
             foreach (ModelMetaData model in data)
             {
@@ -33,6 +31,16 @@ namespace WizardsCode.Models
 
             PopulateCategoryList();
             PopulateModelList();
+        }
+
+        internal string ProjectFolder
+        {
+            get
+            {
+                string folder = AssetDatabase.GetAssetPath(MonoScript.FromMonoBehaviour(this));
+                folder = folder.Substring(0, folder.IndexOf("/Scripts/"));
+                return folder;
+            }
         }
 
         private void PopulateCategoryList()
@@ -124,7 +132,7 @@ namespace WizardsCode.Models
         {
             List<ModelMetaData> metaData = new List<ModelMetaData>();
 
-            string[] prefabGUIDs = AssetDatabase.FindAssets("t:prefab", new[] { modelsProjectFolder });
+            string[] prefabGUIDs = AssetDatabase.FindAssets("t:prefab", new[] { ProjectFolder });
             foreach (string guid in prefabGUIDs)
             {
                 string prefabPath = AssetDatabase.GUIDToAssetPath(guid);
