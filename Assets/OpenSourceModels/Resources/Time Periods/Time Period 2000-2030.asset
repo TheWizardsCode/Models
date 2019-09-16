@@ -9,10 +9,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
-  m_Name: AM-01
+  m_Script: {fileID: 11500000, guid: c0dc5bc41560fcc4d86d231b1f2d66b9, type: 3}
+  m_Name: Time Period 2000-2030
   m_EditorClassIdentifier: 
-  m_category: 0
-  m_timePeriod: 0
-  m_prefab: {fileID: 4133974249650488944, guid: 2d35dd7203ec83a41a2333b53289f432,
-    type: 3}
+  title: 2000-2030

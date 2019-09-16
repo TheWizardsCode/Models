@@ -13,13 +13,22 @@ namespace WizardsCode.Models
     /// </summary>
     public class ModelDatabase : MonoBehaviour
     {
-        // UI
+        [Header("User Interfacr")]
         public Dropdown CategoryDropdown;
         public Dropdown ModelDropdown;
+
+        Category[] categories;
+        TimePeriod[] timePeriods;
 
         GameObject currentObject;
         GameObject lookAt;
         List<ModelMetaData> modelData = new List<ModelMetaData>();
+
+        private void Awake()
+        {
+            categories = Resources.LoadAll<Category>("Categories");
+            timePeriods = Resources.LoadAll<TimePeriod>("Time Periods");
+        }
 
         private void Start()
         {
@@ -46,13 +55,13 @@ namespace WizardsCode.Models
         private void PopulateCategoryList()
         {
             CategoryDropdown.options.Clear();
-            List<Dropdown.OptionData> categories = new List<Dropdown.OptionData>();
-            foreach (ModelMetaData.Category category in Enum.GetValues(typeof(ModelMetaData.Category)))
+            List<Dropdown.OptionData> categoryData = new List<Dropdown.OptionData>();
+            foreach (Category category in categories)
             {
-                categories.Add(new ModelMetaData.CategoryOptionData(category));
+                categoryData.Add(new ModelMetaData.CategoryOptionData(category));
             }
 
-            CategoryDropdown.AddOptions(categories);
+            CategoryDropdown.AddOptions(categoryData);
         }
 
         public void PopulateModelList()
@@ -62,7 +71,7 @@ namespace WizardsCode.Models
             foreach (ModelMetaData data in modelData)
             {
                 int idx = CategoryDropdown.value;
-                if (data.m_category == ((ModelMetaData.CategoryOptionData)CategoryDropdown.options[idx]).m_category)
+                if (data.category == ((ModelMetaData.CategoryOptionData)CategoryDropdown.options[idx]).m_category)
                 {
                     items.Add(new ModelMetaData.MetaDataOptionData(data));
                 }

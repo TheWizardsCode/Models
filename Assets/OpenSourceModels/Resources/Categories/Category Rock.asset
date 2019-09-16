@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
-  m_Name: Campfire
+  m_Script: {fileID: 11500000, guid: e7e22956d39947846a70cdda9b14be30, type: 3}
+  m_Name: Category Rock
   m_EditorClassIdentifier: 
-  m_category: 1
-  m_timePeriod: 0
-  m_prefab: {fileID: 858428604434399549, guid: 591554e8fca149a4c8bdb19bdaf33354, type: 3}
+  title: Rock
+  description: The rock category contains, well, rocks. They are useful when creating
+    outdoor scenes.

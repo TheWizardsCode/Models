@@ -16,3 +16,5 @@ MonoBehaviour:
   m_timePeriod: 0
   m_prefab: {fileID: 3144548681290525853, guid: ec9d32322487ffa449de3b24d63c53c4,
     type: 3}
+  category: {fileID: 11400000, guid: c66aa05ffb873a94d805c81aea9e5e7f, type: 2}
+  timePeriod: {fileID: 11400000, guid: 90c8cc6d85c9b304d87b6ca3ef0471fb, type: 2}

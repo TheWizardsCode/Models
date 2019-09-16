@@ -12,6 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 134e62b5e3f926e47b3cb9589459bdfe, type: 3}
   m_Name: Hamlet
   m_EditorClassIdentifier: 
-  m_category: 0
-  m_timePeriod: 0
+  m_category: 2
+  m_timePeriod: 2
   m_prefab: {fileID: 117797787933690271, guid: aead917daa21229459b28564ed2ab8f9, type: 3}
+  category: {fileID: 11400000, guid: c1f0d53b89a7e5e489850e46f436d29c, type: 2}
+  timePeriod: {fileID: 11400000, guid: 90c8cc6d85c9b304d87b6ca3ef0471fb, type: 2}
