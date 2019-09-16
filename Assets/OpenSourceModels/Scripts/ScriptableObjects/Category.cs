@@ -9,12 +9,10 @@ namespace WizardsCode.Models {
     [CreateAssetMenu(fileName = "Category", menuName = "3DTBD/Category", order = 1)]
     public class Category : ScriptableObject
     {
-        [SerializeField]
         [Tooltip("The title of the category is shown in the user interface.")]
-        string title;
+        public string title;
 
-        [SerializeField]
         [Tooltip("The description of the category is used to provide more detail about what users can expect to find in this category.")]
-        string description;
+        public string description;
     }
 }

@@ -52,6 +52,10 @@ namespace WizardsCode.Models
             }
         }
 
+        /// <summary>
+        /// Fill the category selection list with all known categories. This will allow the user
+        /// to filter the list of objects by category.
+        /// </summary>
         private void PopulateCategoryList()
         {
             CategoryDropdown.options.Clear();
@@ -64,6 +68,9 @@ namespace WizardsCode.Models
             CategoryDropdown.AddOptions(categoryData);
         }
 
+        /// <summary>
+        /// Populate the model list with all the models in the selected category.
+        /// </summary>
         public void PopulateModelList()
         {
             ModelDropdown.options.Clear();

@@ -15,10 +15,8 @@ namespace WizardsCode.Models
         public GameObject m_prefab;
 
         [Header("New Categorization (WIP)")]
-        [SerializeField]
-        internal Category category;
-        [SerializeField]
-        internal TimePeriod timePeriod;
+        public Category category;
+        public TimePeriod timePeriod;
 
 
         public class MetaDataOptionData : Dropdown.OptionData
