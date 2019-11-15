@@ -6,7 +6,7 @@ using UnityEngine;
 using UnityEngine.UI;
 using wizardscode.camera;
 
-namespace WizardsCode.Models
+namespace WizardsCode.Assets
 {
     /// <summary>
     /// The model database collects and manages information about all the models available in the system.
@@ -101,7 +101,7 @@ namespace WizardsCode.Models
                 DestroyImmediate(currentObject);
             }
 
-            GameObject prefab = ((ModelMetaData.MetaDataOptionData)ModelDropdown.options[ModelDropdown.value]).data.m_prefab;
+            GameObject prefab = ((ModelMetaData.MetaDataOptionData)ModelDropdown.options[ModelDropdown.value]).data.asset as GameObject;
             currentObject = Instantiate(prefab);
 
             PositionCamera();
@@ -160,7 +160,7 @@ namespace WizardsCode.Models
                 if (data == null)
                 {
                     data = ScriptableObject.CreateInstance<ModelMetaData>();
-                    data.m_prefab = prefab;
+                    data.asset = prefab;
                     data.name = prefab.name;
                     AssetDatabase.CreateAsset(data, dataPath);
                 }

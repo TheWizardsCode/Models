@@ -9,9 +9,9 @@ MonoBehaviour:
   m_GameObject: {fileID: 0}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e7e22956d39947846a70cdda9b14be30, type: 3}
-  m_Name: Category Uncategorized
+  m_Script: {fileID: 11500000, guid: 59c85d2be99c71f4db390b3b00a3e875, type: 3}
+  m_Name: Tree10_3.prefab
   m_EditorClassIdentifier: 
-  title: Uncategorized
-  description: This category contains models that have not yet been placed into a
-    category. Help us out by categorizing them appropriately.
+  asset: {fileID: 109824, guid: f80b9a82cf103fc46a271d8c08ba22c0, type: 3}
+  category: {fileID: 11400000, guid: c0e6e3e37fc6cda4fa71bb5a85545119, type: 2}
+  timePeriod: {fileID: 0}
