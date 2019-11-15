@@ -45,6 +45,7 @@ namespace WizardsCode.Models
                         if (GUILayout.Button(models[idx].m_prefab.name))
                         {
                             gameObject = models[idx].m_prefab;
+                            EditorGUIUtility.PingObject(gameObject);
                         }
                     }
                 }
