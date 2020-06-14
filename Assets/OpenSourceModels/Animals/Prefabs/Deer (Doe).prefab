@@ -163,11 +163,35 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _serializedBlackboard: '{"_variables":{"PrimaryTarget":{"_propertyPath":"ThreeDtbd.Character.Sense.PrimaryTarget","_name":"PrimaryTarget","_id":"284df9a9-0365-4be9-8e69-27238f364f0f","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
-    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}}}'
+    UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"},"FeelSafeDistance":{"_value":25.0,"_name":"FeelSafeDistance","_id":"ee103964-06e2-49b5-b0b2-43318bcd1c03","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Flock
+    Grouping Distance":{"_value":50.0,"_name":"Flock Grouping Distance","_id":"72469624-524d-4fb9-b419-00f6a9339448","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Flock
+    Avoidance Distance":{"_value":10.0,"_name":"Flock Avoidance Distance","_id":"f1098a14-7c64-4d1c-bd69-6580a17fbbcc","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Flock
+    Max Deviation":{"_value":10.0,"_name":"Flock Max Deviation","_id":"3ae65bf7-9958-4cfe-8aa0-c401797fd57f","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"},"Flocking
+    Jitter":{"_value":0.5,"_name":"Flocking Jitter","_id":"d449d406-56ef-4cc1-9d9d-c82a60a3695b","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+    mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}}}'
   _objectReferences: []
   _serializedVariables:
   - _json: '{"_propertyPath":"ThreeDtbd.Character.Sense.PrimaryTarget","_name":"PrimaryTarget","_id":"284df9a9-0365-4be9-8e69-27238f364f0f","$type":"NodeCanvas.Framework.Variable`1[[UnityEngine.GameObject,
       UnityEngine.CoreModule, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null]]"}'
+    _references: []
+  - _json: '{"_value":25.0,"_name":"FeelSafeDistance","_id":"ee103964-06e2-49b5-b0b2-43318bcd1c03","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":50.0,"_name":"Flock Grouping Distance","_id":"72469624-524d-4fb9-b419-00f6a9339448","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":10.0,"_name":"Flock Avoidance Distance","_id":"f1098a14-7c64-4d1c-bd69-6580a17fbbcc","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":10.0,"_name":"Flock Max Deviation","_id":"3ae65bf7-9958-4cfe-8aa0-c401797fd57f","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
+    _references: []
+  - _json: '{"_value":0.5,"_name":"Flocking Jitter","_id":"d449d406-56ef-4cc1-9d9d-c82a60a3695b","$type":"NodeCanvas.Framework.Variable`1[[System.Single,
+      mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089]]"}'
     _references: []
 --- !u!114 &2954698245043723005
 MonoBehaviour:
@@ -244,7 +268,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   eyes: {fileID: 8464959357577041952}
-  fieldOfView: 110
+  fieldOfView: 310
   visionRange: 100
   scentRange: 8
   hearingRange: 10
@@ -290,6 +314,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8297694200227731145, guid: b66a36a4495c9974a94ed85e0cdf0973,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 4.931
+      objectReference: {fileID: 0}
+    - target: {fileID: -8297694200227731145, guid: b66a36a4495c9974a94ed85e0cdf0973,
+        type: 3}
+      propertyPath: m_LocalPosition.z
+      value: 3.12
       objectReference: {fileID: 0}
     - target: {fileID: -4216859302048453862, guid: b66a36a4495c9974a94ed85e0cdf0973,
         type: 3}
@@ -374,12 +408,12 @@ PrefabInstance:
     - target: {fileID: 1707243787577406375, guid: b66a36a4495c9974a94ed85e0cdf0973,
         type: 3}
       propertyPath: m_LocalPosition.z
-      value: 0.843
+      value: 3.281
       objectReference: {fileID: 0}
     - target: {fileID: 1707243787577406375, guid: b66a36a4495c9974a94ed85e0cdf0973,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: 1.466
+      value: 4.713
       objectReference: {fileID: 0}
     - target: {fileID: 1707243787577406375, guid: b66a36a4495c9974a94ed85e0cdf0973,
         type: 3}
@@ -440,6 +474,11 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 5574657383665397177, guid: b66a36a4495c9974a94ed85e0cdf0973,
+        type: 3}
+      propertyPath: m_LocalPosition.y
+      value: 3.48
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: b66a36a4495c9974a94ed85e0cdf0973, type: 3}
